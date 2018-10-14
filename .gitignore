@@ -1,0 +1,13 @@
+*_local*
+static
+env
+
+*.pyc
+__pycache
+*.swp
+*.log
+log
+
+*fixtures*
+
+*.sqlite3
