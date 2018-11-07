@@ -3,5 +3,5 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('<id>', views.question, name='question'),
+    path('<id>/', views.question, name='question'),
 ]
