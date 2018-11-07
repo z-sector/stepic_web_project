@@ -11,3 +11,7 @@ log
 *fixtures*
 
 *.sqlite3
+
+myvenv/
+
+.idea/
