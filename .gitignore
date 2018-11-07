@@ -1,6 +1,7 @@
 *_local*
 static
 env
+commands.txt
 
 *.pyc
 __pycache

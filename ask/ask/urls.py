@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', qa.test, name='home'),
     path('login/', qa.test, name='login'),
-    path('signup', qa.test, name='signup'),
+    path('signup/', qa.test, name='signup'),
     path('question/', include('qa.urls')),
     path('ask/', qa.test, name='ask'),
     path('popular/', qa.test, name='popular'),
