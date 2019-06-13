@@ -1,18 +1,3 @@
-*_local*
-static
-env
-commands.txt
-
+syntax: glob
 *.pyc
-__pycache
-*.swp
-*.log
-log
 
-*fixtures*
-
-*.sqlite3
-
-myvenv/
-
-.idea/

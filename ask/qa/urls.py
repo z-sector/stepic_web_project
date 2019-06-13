@@ -1,7 +1,8 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.conf.urls import url
+from qa.views import question
 from . import views
 
 urlpatterns = [
-    path('<id>/', views.question, name='question'),
+    url(r'^$', views.index, name='index'),
+    url(r'^(?P<num>\d+)/$', question),
 ]
